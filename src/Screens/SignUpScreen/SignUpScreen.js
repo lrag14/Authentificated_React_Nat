@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 /////////////////////
 import CustomInput from '../../../src/components/CustomInput/CustomInput.js';
 import CustumButton from '../../../src/components/CustomButton/CustumButton.js';
-import SocialSignInButtons from '../../../components/SocialSignInButtons/SocialSignInButtons.js';
+import SocialSignInButtons from '../../components/SocialSignInButtons/SocialSignInButtons.js';
 
 const SignUpScreen = () => {
    const [username, setUsername] = useState('');

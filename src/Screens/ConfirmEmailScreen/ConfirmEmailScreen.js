@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 /////////////////////
 import CustomInput from '../../components/CustomInput/CustomInput.js';
 import CustumButton from '../../components/CustomButton/CustumButton.js';
-import SocialSignInButtons from '../../../components/SocialSignInButtons/SocialSignInButtons.js';
+import SocialSignInButtons from '../../components/SocialSignInButtons/SocialSignInButtons.js';
 import { useNavigation } from '@react-navigation/native';
 
 const ConfirmEmailScreen = () => {
